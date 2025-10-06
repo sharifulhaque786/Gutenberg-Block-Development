@@ -4,19 +4,19 @@ return array(
 	'curvy' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'create-block/curvy',
+		'name' => 'blockylicious/curvy',
 		'version' => '0.1.0',
 		'title' => 'Curvy',
 		'category' => 'widgets',
 		'icon' => 'smiley',
-		'description' => 'Example block scaffolded with Create Block tool.',
+		'description' => 'Curved blocks to create a divider between sections on a page.',
 		'example' => array(
 			
 		),
 		'supports' => array(
 			'html' => false
 		),
-		'textdomain' => 'curvy',
+		'textdomain' => 'blockylicious',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
